@@ -1,0 +1,25 @@
+{
+  "name": "stock-news-demo",
+  "version": "1.0.0",
+  "description": "Demo project showing how to use the stock news MCP",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "stock",
+    "news",
+    "demo"
+  ],
+  "author": "steezy789",
+  "license": "MIT",
+  "dependencies": {
+    "@steezy789/mcp-stock-news-api": "^1.0.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
